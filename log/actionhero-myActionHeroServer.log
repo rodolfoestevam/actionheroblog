@@ -1,0 +1,50 @@
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"myActionHeroServer @ 2017-10-30T18:33:29.511Z"}
+{"level":"notice","message":"environment: development","timestamp":"myActionHeroServer @ 2017-10-30T18:33:29.511Z"}
+{"level":"notice","message":"pid: 70116","timestamp":"myActionHeroServer @ 2017-10-30T18:33:29.511Z"}
+{"level":"notice","message":"server ID: myActionHeroServer","timestamp":"myActionHeroServer @ 2017-10-30T18:33:29.512Z"}
+{"level":"info","message":"actionhero member myActionHeroServer has joined the cluster","timestamp":"myActionHeroServer @ 2017-10-30T18:33:29.512Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"myActionHeroServer @ 2017-10-30T18:33:29.514Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"myActionHeroServer @ 2017-10-30T18:33:29.514Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"myActionHeroServer @ 2017-10-30T18:33:29.894Z"}
+{"level":"info","message":"*** rebooting due to config change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/config/api.js) ***","timestamp":"myActionHeroServer @ 2017-10-30T18:33:51.426Z"}
+{"level":"notice","message":"stopping process...","timestamp":"myActionHeroServer @ 2017-10-30T18:33:51.426Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"myActionHeroServer @ 2017-10-30T18:33:51.426Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"myActionHeroServer @ 2017-10-30T18:33:51.427Z"}
+{"level":"info","message":"actionhero member myActionHeroServer has left the cluster","timestamp":"myActionHeroServer @ 2017-10-30T18:33:51.428Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"myActionHeroServer @ 2017-10-30T18:33:51.429Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"myActionHeroServer @ 2017-10-30T18:35:40.931Z"}
+{"level":"notice","message":"environment: development","timestamp":"myActionHeroServer @ 2017-10-30T18:35:40.931Z"}
+{"level":"notice","message":"pid: 70116","timestamp":"myActionHeroServer @ 2017-10-30T18:35:40.931Z"}
+{"level":"notice","message":"server ID: myActionHeroServer","timestamp":"myActionHeroServer @ 2017-10-30T18:35:40.932Z"}
+{"level":"info","message":"actionhero member myActionHeroServer has joined the cluster","timestamp":"myActionHeroServer @ 2017-10-30T18:35:40.934Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"myActionHeroServer @ 2017-10-30T18:35:40.935Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"myActionHeroServer @ 2017-10-30T18:35:40.936Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"myActionHeroServer @ 2017-10-30T18:35:41.431Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"action\":\"userAdd\",\"apiVersion\":\"v1\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:35:45.192Z"}
+{"to":"127.0.0.1","params":"{\"userName\":\"rodolfo\",\"apiVersion\":\"0.1.0\",\"password\":\"root\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:35:59.952Z"}
+{"to":"127.0.0.1","action":"authenticate","params":"{\"userName\":\"rodolfo\",\"password\":\"root\",\"action\":\"authenticate\"}","duration":1,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:36:22.577Z"}
+{"level":"error","message":"Unable to connect to Redis - please check your Redis config!","timestamp":"myActionHeroServer @ 2017-10-30T18:37:59.693Z"}
+{"level":"error","message":"Unable to connect to Redis - please check your Redis config!","timestamp":"myActionHeroServer @ 2017-10-30T18:37:59.693Z"}
+{"level":"error","message":"Unable to connect to Redis - please check your Redis config!","timestamp":"myActionHeroServer @ 2017-10-30T18:37:59.693Z"}
+{"level":"notice","message":"stopping process...","timestamp":"myActionHeroServer @ 2017-10-30T18:38:10.356Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"myActionHeroServer @ 2017-10-30T18:38:10.358Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"myActionHeroServer @ 2017-10-30T18:38:10.358Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"myActionHeroServer @ 2017-10-30T18:38:13.019Z"}
+{"level":"notice","message":"environment: development","timestamp":"myActionHeroServer @ 2017-10-30T18:38:13.020Z"}
+{"level":"notice","message":"pid: 70345","timestamp":"myActionHeroServer @ 2017-10-30T18:38:13.021Z"}
+{"level":"notice","message":"server ID: myActionHeroServer","timestamp":"myActionHeroServer @ 2017-10-30T18:38:13.022Z"}
+{"level":"info","message":"actionhero member myActionHeroServer has joined the cluster","timestamp":"myActionHeroServer @ 2017-10-30T18:38:13.023Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"myActionHeroServer @ 2017-10-30T18:38:13.029Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"myActionHeroServer @ 2017-10-30T18:38:13.031Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"myActionHeroServer @ 2017-10-30T18:38:13.562Z"}
+{"to":"127.0.0.1","params":"{\"userName\":\"evan\",\"password\":\"password\"}","duration":1,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:38:40.300Z"}
+{"to":"127.0.0.1","action":"authenticate","params":"{\"userName\":\"evan\",\"password\":\"password\",\"action\":\"authenticate\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:45:28.181Z"}
+{"to":"127.0.0.1","params":"{\"userName\":\"evan\",\"password\":\"password\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:45:46.482Z"}
+{"to":"127.0.0.1","params":"{\"userName\":\"euser\",\"password\":\"pass\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:46:08.549Z"}
+{"to":"127.0.0.1","action":"authenticate","params":"{\"userName\":\"rodolfo\",\"password\":\"root\",\"action\":\"authenticate\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:48:12.125Z"}
+{"to":"127.0.0.1","action":"authenticate","params":"{\"userName\":\"rodolfo\",\"password\":\"root\",\"action\":\"authenticate\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:48:33.813Z"}
+{"to":"127.0.0.1","action":"authenticate","params":"{\"userName\":\"rodolfo\",\"password\":\"root\",\"action\":\"authenticate\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:48:38.674Z"}
+{"to":"127.0.0.1","action":"postsList","params":"{\"userName\":\"rodolfo\",\"action\":\"postsList\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:50:36.409Z"}
+{"to":"127.0.0.1","file":"{not found}","requestedFile":"robots.txt","size":null,"duration":null,"success":false,"level":"info","message":"[ file @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:50:37.672Z"}
+{"to":"127.0.0.1","file":"{not found}","requestedFile":"robots.txt","size":null,"duration":null,"success":false,"level":"info","message":"[ file @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:50:37.677Z"}
+{"to":"127.0.0.1","params":"{\"forma_de_pagamento\":\"payfast\",\"valor\":10.87,\"moeda\":\"DOLAR\",\"descricao\":\"criando um pgto\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:54:28.238Z"}
