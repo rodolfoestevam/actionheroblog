@@ -64,7 +64,7 @@ describe('integration', () => {
             expect(body.error).to.equal('unable to log in')
         })
 
-        it('')
+        it('returns')
 
     })
 })

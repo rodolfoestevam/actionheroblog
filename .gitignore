@@ -1,0 +1,8 @@
+node_modules
+.idea
+.DS_Store
+/-/
+npm-debug.log
+npm-debug.log.*
+LICENSE
+.bash_history
