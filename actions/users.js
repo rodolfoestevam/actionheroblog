@@ -1,7 +1,7 @@
 
 const {api, Action} = require('actionhero')
 
-exports = class UserAdd extends Action {
+exports.userAdd = class UserAdd extends Action {
   constructor () {
     super()
     this.name = 'userAdd'

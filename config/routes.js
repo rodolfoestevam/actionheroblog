@@ -3,6 +3,7 @@ exports.default = {
     return {
 
       get: [
+        { path : '/teste', action: 'jefferson' },
         { path : '/users', action: 'usersList' },
         { path : '/comments/:userName/:title', action: 'commentsView' },
         { path : '/post/:userName/:title', action: 'postView' },

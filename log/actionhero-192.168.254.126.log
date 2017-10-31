@@ -523,3 +523,168 @@
 {"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-10-30T18:35:40.855Z"}
 {"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-10-30T18:35:40.857Z"}
 {"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-10-30T18:35:40.858Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-10-30T19:10:06.365Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-10-30T19:10:06.366Z"}
+{"level":"notice","message":"pid: 70345","timestamp":"192.168.254.126 @ 2017-10-30T19:10:06.367Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-10-30T19:10:06.367Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-10-30T19:10:06.369Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-10-30T19:10:06.371Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-10-30T19:10:06.372Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-10-30T19:10:06.822Z"}
+{"to":"127.0.0.1","params":"{}","duration":1,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:20:40.741Z"}
+{"to":"127.0.0.1","file":"{not found}","requestedFile":"robots.txt","size":null,"duration":null,"success":false,"level":"info","message":"[ file @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:20:40.750Z"}
+{"to":"127.0.0.1","action":"usersList","params":"{\"action\":\"usersList\"}","duration":1,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:21:28.259Z"}
+{"to":"127.0.0.1","action":"usersList","params":"{\"apiVersion\":\"0.1.0\",\"action\":\"usersList\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:22:07.808Z"}
+{"to":"127.0.0.1","action":"usersList","params":"{\"appVersion\":\"0.1.0\",\"action\":\"usersList\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:22:10.736Z"}
+{"to":"127.0.0.1","action":"usersList","params":"{\"api_version\":\"0.1.0\",\"action\":\"usersList\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:22:23.583Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-10-30T19:23:58.965Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-10-30T19:23:58.968Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-10-30T19:23:58.968Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-10-30T19:24:01.145Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-10-30T19:24:01.146Z"}
+{"level":"notice","message":"pid: 70824","timestamp":"192.168.254.126 @ 2017-10-30T19:24:01.147Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-10-30T19:24:01.147Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-10-30T19:24:01.149Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-10-30T19:24:01.155Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-10-30T19:24:01.158Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.254.126 @ 2017-10-30T19:24:01.732Z"}
+{"to":"127.0.0.1","action":"usersList","params":"{\"api_version\":\"0.1.0\",\"action\":\"usersList\"}","duration":2,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:24:09.421Z"}
+{"to":"127.0.0.1","action":"usersList","params":"{\"appVersion\":\"1\",\"action\":\"usersList\"}","duration":1,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:26:33.145Z"}
+{"to":"127.0.0.1","params":"{}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:26:42.727Z"}
+{"to":"127.0.0.1","params":"{}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:26:50.228Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-10-30T19:27:49.031Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-10-30T19:27:49.033Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-10-30T19:27:49.033Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-10-30T19:32:13.891Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-10-30T19:32:13.892Z"}
+{"level":"notice","message":"pid: 70970","timestamp":"192.168.254.126 @ 2017-10-30T19:32:13.893Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-10-30T19:32:13.893Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-10-30T19:32:13.895Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-10-30T19:32:13.900Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-10-30T19:32:13.902Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.254.126 @ 2017-10-30T19:32:14.411Z"}
+{"to":"127.0.0.1","params":"{}","duration":1,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:32:25.877Z"}
+{"to":"127.0.0.1","file":"{not found}","requestedFile":"jefferson","size":null,"duration":null,"success":false,"level":"info","message":"[ file @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:32:32.461Z"}
+{"to":"127.0.0.1","params":"{}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:32:35.992Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-10-30T19:33:34.904Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-10-30T19:33:34.905Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-10-30T19:33:34.906Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-10-30T19:33:36.611Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-10-30T19:33:36.612Z"}
+{"level":"notice","message":"pid: 71028","timestamp":"192.168.254.126 @ 2017-10-30T19:33:36.613Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-10-30T19:33:36.614Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-10-30T19:33:36.617Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-10-30T19:33:36.622Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-10-30T19:33:36.624Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.254.126 @ 2017-10-30T19:33:37.136Z"}
+{"to":"127.0.0.1","action":"jefferson","params":"{\"action\":\"jefferson\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:33:40.556Z"}
+{"to":"127.0.0.1","action":"jefferson","params":"{\"action\":\"jefferson\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:33:48.900Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-10-30T19:35:04.704Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-10-30T19:35:04.707Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-10-30T19:35:04.707Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-10-30T19:35:06.603Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-10-30T19:35:06.604Z"}
+{"level":"notice","message":"pid: 71075","timestamp":"192.168.254.126 @ 2017-10-30T19:35:06.604Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-10-30T19:35:06.605Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-10-30T19:35:06.606Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-10-30T19:35:06.612Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-10-30T19:35:06.613Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.254.126 @ 2017-10-30T19:35:07.306Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"action\":\"userAdd\",\"apiVersion\":1}","duration":6,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:35:12.157Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"userName\":\"thalesvsr\",\"password\":\"pass\",\"action\":\"userAdd\",\"apiVersion\":1}","duration":83,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:36:09.140Z"}
+{"to":"127.0.0.1","action":"postsList","params":"{\"userName\":\"rodolfo\",\"action\":\"postsList\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:37:01.726Z"}
+{"to":"127.0.0.1","action":"postsList","params":"{\"userName\":\"thalesvs\",\"action\":\"postsList\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:37:15.422Z"}
+{"to":"127.0.0.1","params":"{\"forma_de_pagamento\":\"payfast\",\"valor\":10.87,\"moeda\":\"DOLAR\",\"descricao\":\"criando um pgto\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:38:18.254Z"}
+{"to":"127.0.0.1","action":"postsList","params":"{\"userName\":\"rodolfo\",\"action\":\"postsList\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:38:23.422Z"}
+{"to":"127.0.0.1","action":"postView","params":"{\"userName\":\"rodolfo\",\"title\":\"first-post\",\"action\":\"postView\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:40:12.757Z"}
+{"to":"127.0.0.1","file":"{not found}","requestedFile":"robots.txt","size":null,"duration":null,"success":false,"level":"info","message":"[ file @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:40:12.766Z"}
+{"to":"127.0.0.1","action":"authenticate","params":"{\"action\":\"authenticate\",\"apiVersion\":1}","duration":1,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:42:36.695Z"}
+{"to":"127.0.0.1","params":"{\"userName\":[\"rodolfo\",\"evan\"],\"password\":[\"root\",\"password\"]}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:42:53.238Z"}
+{"to":"127.0.0.1","action":"authenticate","params":"{\"userName\":[\"rodolfo\",\"evan\"],\"password\":[\"root\",\"password\"],\"action\":\"authenticate\",\"apiVersion\":1}","duration":4,"error":"Error: userName does not exists (ReplyError: ERR wrong number of arguments for 'hget' command)","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:42:53.244Z"}
+{"to":"127.0.0.1","action":"authenticate","params":"{\"userName\":\"evan\",\"password\":\"password\",\"action\":\"authenticate\",\"apiVersion\":1}","duration":0,"error":"Error: userName does not exists (TypeError: Cannot read property 'hashedPassword' of null)","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:42:56.849Z"}
+{"to":"127.0.0.1","action":"authenticate","params":"{\"userName\":\"rodolfo\",\"password\":\"root\",\"action\":\"authenticate\",\"apiVersion\":1}","duration":80,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:43:13.235Z"}
+{"to":"127.0.0.1","action":"authenticate","params":"{\"userName\":\"rodolfo\",\"password\":\"root\",\"action\":\"authenticate\",\"apiVersion\":1}","duration":81,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:43:25.623Z"}
+{"to":"127.0.0.1","params":"{\"userName\":\"rodolfo\",\"password\":\"root\",\"title\":\"first-post\",\"content\":\"My first post.  Yay.\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:43:48.389Z"}
+{"to":"127.0.0.1","action":"postView","params":"{\"userName\":\"rodolfo\",\"title\":\"first-post\",\"action\":\"postView\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:45:38.068Z"}
+{"to":"127.0.0.1","action":"postsList","params":"{\"userName\":\"thalesvs\",\"action\":\"postsList\",\"apiVersion\":1}","duration":1,"error":"TypeError: api.blog.postsList is not a function","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:45:44.525Z"}
+{"to":"127.0.0.1","params":"{}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:45:46.930Z"}
+{"to":"127.0.0.1","params":"{}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:46:01.403Z"}
+{"to":"127.0.0.1","params":"{\"userName\":\"rodolfo\",\"title\":\"first-post\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:46:46.027Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"userName\":\"evan\",\"password\":\"password\",\"action\":\"userAdd\",\"apiVersion\":1}","duration":83,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:47:50.358Z"}
+{"to":"127.0.0.1","action":"authenticate","params":"{\"userName\":\"evan\",\"password\":\"password\",\"action\":\"authenticate\",\"apiVersion\":1}","duration":81,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:48:01.531Z"}
+{"to":"127.0.0.1","params":"{\"userName\":\"evan\",\"password\":\"password\",\"title\":\"first-post\",\"content\":\"My first post.  Yay.\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:48:07.648Z"}
+{"to":"127.0.0.1","action":"postAdd","params":"{\"userName\":\"evan\",\"password\":\"password\",\"title\":\"first-post\",\"content\":\"My first post.  Yay.\",\"action\":\"postAdd\",\"apiVersion\":1}","duration":84,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:51:31.781Z"}
+{"to":"127.0.0.1","action":"postView","params":"{\"action\":\"postView\",\"apiVersion\":1}","duration":1,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:52:00.264Z"}
+{"to":"127.0.0.1","action":"postsList","params":"{\"userName\":\"rodolfo\",\"action\":\"postsList\",\"apiVersion\":1}","duration":1,"error":"TypeError: api.blog.postsList is not a function","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:52:33.204Z"}
+{"to":"127.0.0.1","action":"postsList","params":"{\"userName\":\"evan\",\"action\":\"postsList\",\"apiVersion\":1}","duration":0,"error":"TypeError: api.blog.postsList is not a function","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:52:38.010Z"}
+{"to":"127.0.0.1","params":"{}","duration":1,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:52:45.711Z"}
+{"to":"127.0.0.1","action":"postView","params":"{\"userName\":\"evan\",\"title\":\"first-post\",\"action\":\"postView\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:53:48.596Z"}
+{"to":"127.0.0.1","action":"commentAdd","params":"{\"userName\":\"evan\",\"title\":\"first-post\",\"comment\":\"cool post\",\"commenterName\":\"someoneElse\",\"action\":\"commentAdd\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:54:06.232Z"}
+{"to":"127.0.0.1","action":"commentsView","params":"{\"userName\":\"evan\",\"title\":\"first-post\",\"action\":\"commentsView\",\"apiVersion\":1}","duration":1,"error":"ReferenceError: comment is not defined","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:54:14.839Z"}
+{"to":"127.0.0.1","action":"commentsView","params":"{\"userName\":\"evan\",\"title\":\"first-post\",\"action\":\"commentsView\",\"apiVersion\":1}","duration":2,"error":"ReferenceError: comment is not defined","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:54:16.560Z"}
+{"to":"127.0.0.1","action":"commentAdd","params":"{\"userName\":\"evan\",\"title\":\"first-post\",\"comment\":\"cool post\",\"commenterName\":\"someoneElse\",\"action\":\"commentAdd\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:54:32.771Z"}
+{"to":"127.0.0.1","action":"commentsView","params":"{\"userName\":\"evan\",\"title\":\"first-post\",\"action\":\"commentsView\",\"apiVersion\":1}","duration":1,"error":"ReferenceError: comment is not defined","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:54:58.680Z"}
+{"to":"127.0.0.1","action":"postsList","params":"{\"userName\":\"evan\",\"action\":\"postsList\",\"apiVersion\":1}","duration":0,"error":"TypeError: api.blog.postsList is not a function","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:55:30.183Z"}
+{"to":"127.0.0.1","action":"postsList","params":"{\"userName\":\"evan\",\"action\":\"postsList\",\"apiVersion\":1}","duration":0,"error":"TypeError: api.blog.postsList is not a function","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:55:39.297Z"}
+{"to":"127.0.0.1","action":"postView","params":"{\"userName\":\"evan\",\"title\":\"first-post\",\"action\":\"postView\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:55:55.033Z"}
+{"to":"127.0.0.1","action":"postsList","params":"{\"userName\":\"evan\",\"action\":\"postsList\",\"apiVersion\":1}","duration":0,"error":"TypeError: api.blog.postsList is not a function","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:56:01.988Z"}
+{"to":"127.0.0.1","action":"postsList","params":"{\"userName\":\"evan\",\"action\":\"postsList\",\"apiVersion\":1}","duration":1,"error":"TypeError: api.blog.postsList is not a function","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:56:33.211Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/blog.js) ***","timestamp":"192.168.254.126 @ 2017-10-30T19:56:45.468Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-10-30T19:56:45.469Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-10-30T19:56:45.471Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-10-30T19:56:45.472Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-10-30T19:56:45.476Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-10-30T19:56:45.479Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-10-30T19:56:45.555Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-10-30T19:56:45.555Z"}
+{"level":"notice","message":"pid: 71075","timestamp":"192.168.254.126 @ 2017-10-30T19:56:45.556Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-10-30T19:56:45.556Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-10-30T19:56:45.558Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-10-30T19:56:45.560Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-10-30T19:56:45.560Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-10-30T19:56:45.976Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/blog.js) ***","timestamp":"192.168.254.126 @ 2017-10-30T19:56:50.346Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-10-30T19:56:50.346Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-10-30T19:56:50.347Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-10-30T19:56:50.347Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-10-30T19:56:50.350Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-10-30T19:56:50.351Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-10-30T19:56:50.387Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-10-30T19:56:50.387Z"}
+{"level":"notice","message":"pid: 71075","timestamp":"192.168.254.126 @ 2017-10-30T19:56:50.388Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-10-30T19:56:50.388Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-10-30T19:56:50.390Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-10-30T19:56:50.392Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-10-30T19:56:50.392Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-10-30T19:56:50.765Z"}
+{"to":"127.0.0.1","action":"postsList","params":"{\"userName\":\"evan\",\"action\":\"postsList\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:56:54.334Z"}
+{"to":"127.0.0.1","action":"postsList","params":"{\"userName\":\"evan\",\"action\":\"postsList\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-30T19:57:01.381Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-10-30T20:00:55.981Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-10-30T20:00:55.978Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-10-30T20:00:55.979Z"}
+{"level":"notice","message":"pid: 71502","timestamp":"192.168.254.126 @ 2017-10-30T20:00:55.980Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-10-30T20:00:55.980Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-10-30T20:00:55.983Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-10-30T20:00:55.986Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-10-30T20:00:55.989Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-10-30T20:00:55.991Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-10-30T20:00:55.991Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-10-30T20:00:55.992Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-10-30T20:00:55.992Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-10-30T20:00:55.993Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-10-30T20:01:08.910Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-10-30T20:01:08.910Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-10-30T20:01:08.911Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.304Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.304Z"}
+{"level":"notice","message":"pid: 71518","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.305Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.305Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.308Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.312Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.313Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.804Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.832Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.833Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.833Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.838Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.840Z"}

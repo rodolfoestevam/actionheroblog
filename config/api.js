@@ -11,7 +11,7 @@ exports['default'] = {
       serverName: packageJSON.name,
       // id can be set here, or it will be generated dynamically.
       //  Be sure that every server you run has a unique ID (which will happen when generated dynamically)
-        id: 'myActionHeroServer',
+      //  id: 'myActionHeroServer',
       // A unique token to your application that servers will use to authenticate to each other
       serverToken: 'change-me',
       // the redis prefix for actionhero's cache objects

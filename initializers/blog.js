@@ -37,7 +37,7 @@ module.exports = class Blog extends Initializer {
       return redis.hgetall(key)
     }
 
-    api.blog.postList = async(userName) => {
+    api.blog.postsList = async(userName) => {
       const search = [api.blog.postPrefix, userName, '*'].join(api.blog.separator)
       const keys = await redis.keys(search)
       let titles = keys.map((key) => {

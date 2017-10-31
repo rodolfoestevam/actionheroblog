@@ -17,7 +17,9 @@
     "chai": "latest",
     "cross-env": "latest",
     "dirty-chai": "latest",
-    "mocha": "latest",
+    "mocha": "^4.0.1",
+    "request": "^2.83.0",
+    "should": "^13.1.3",
     "standard": "latest"
   },
   "scripts": {

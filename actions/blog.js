@@ -1,7 +1,7 @@
 
 const {api, Action} = require('actionhero')
 
-exports = class PostAdd extends Action {
+exports.postAdd = class PostAdd extends Action {
   constructor () {
     super()
     this.name = 'postAdd'
@@ -17,7 +17,6 @@ exports = class PostAdd extends Action {
   }
 
   async run ({params}) {
-    // your logic here
     await api.blog.postAdd(params.userName, params.title, params.content)
   }
 }

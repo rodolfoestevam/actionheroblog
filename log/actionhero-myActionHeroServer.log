@@ -48,3 +48,14 @@
 {"to":"127.0.0.1","file":"{not found}","requestedFile":"robots.txt","size":null,"duration":null,"success":false,"level":"info","message":"[ file @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:50:37.672Z"}
 {"to":"127.0.0.1","file":"{not found}","requestedFile":"robots.txt","size":null,"duration":null,"success":false,"level":"info","message":"[ file @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:50:37.677Z"}
 {"to":"127.0.0.1","params":"{\"forma_de_pagamento\":\"payfast\",\"valor\":10.87,\"moeda\":\"DOLAR\",\"descricao\":\"criando um pgto\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T18:54:28.238Z"}
+{"to":"127.0.0.1","params":"{\"userName\":\"thalesvsr\",\"password\":\"pass\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T19:01:44.999Z"}
+{"to":"127.0.0.1","action":"postsList","params":"{\"userName\":\"rodolfo\",\"action\":\"postsList\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T19:07:26.533Z"}
+{"to":"127.0.0.1","file":"/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/public/javascript/ActionheroWebsocketClient.min.js","requestedFile":"javascript/ActionheroWebsocketClient.min.js","size":32931,"duration":5,"success":true,"level":"info","message":"[ file @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T19:07:34.311Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T19:07:34.716Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":106,"level":"info","message":"[ action @ web ]","timestamp":"myActionHeroServer @ 2017-10-30T19:07:34.824Z"}
+{"level":"info","message":"*** rebooting due to config change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/config/api.js) ***","timestamp":"myActionHeroServer @ 2017-10-30T19:10:06.291Z"}
+{"level":"notice","message":"stopping process...","timestamp":"myActionHeroServer @ 2017-10-30T19:10:06.292Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"myActionHeroServer @ 2017-10-30T19:10:06.294Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"myActionHeroServer @ 2017-10-30T19:10:06.295Z"}
+{"level":"info","message":"actionhero member myActionHeroServer has left the cluster","timestamp":"myActionHeroServer @ 2017-10-30T19:10:06.298Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"myActionHeroServer @ 2017-10-30T19:10:06.300Z"}
