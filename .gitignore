@@ -1,5 +1,5 @@
 node_modules/
-dump.rdb/
+dump.rdb
 .idea
 .DS_Store
 /-/
