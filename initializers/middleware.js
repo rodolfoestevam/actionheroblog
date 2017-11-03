@@ -1,34 +1,13 @@
-const {
-  Initializer,
-  api
-} = require('actionhero')
+const {api, Initializer } = require('actionhero')
+const jwt = require('jsonwebtoken')
 
-module.exports = class AuthenticationMiddleware extends Initializer {
-  constructor() {
-    super()
-    this.name = 'authentication_middleware'
-  }
-
-  async initialize() {
-    const middleware = {
-      name: this.name,
-      global: true,
-      preProcessor: async({
-        actionTemplate,
-        params
-      }) => {
-        if (actionTemplate.authenticated === true) {
-          let match = await api.users.authenticate(params.userName, params.password)
-          if (!match) {
-            throw Error('Authentication Failed. Username and password required')
-          }
-        }
-      }
+module.exports = class JwtMiddleware extends Initializer {
+    constructor() {
+        super()
+        this.name = 'jwt-middleware'
     }
 
-    api.actions.addMiddleware(middleware)
-  }
-
-  //async start () {}
-  //async stop () {}
+    async initialize() {
+        
+    }
 }

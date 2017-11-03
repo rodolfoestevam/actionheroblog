@@ -1,8 +1,5 @@
+const { Initializer, api} = require('actionhero')
 const bcrypt = require('bcrypt')
-const {
-  Initializer,
-  api
-} = require('actionhero')
 
 module.exports = class Users extends Initializer {
   constructor() {
@@ -14,6 +11,22 @@ module.exports = class Users extends Initializer {
 
   async initialize() {
     const redis = api.redis.clients.client
+
+    // const middleware = {
+    //     name: 'userId checker',
+    //     global: false,
+    //     priority: 1000,
+    //     preProcessor: (data) => {
+    //         if(!data.params.userId){
+    //         throw new Error('All actions require a userId')
+    //         }
+    //     },
+    //     postProcessor (data) => {
+    //         if(data.thing.stuff == false){ data.toRender = false }
+    //     }
+    // }
+
+    // api.actions.addMiddleware(middleware)
 
     api.users = {}
 
@@ -38,6 +51,17 @@ module.exports = class Users extends Initializer {
         delete data.hashedPassword
         return data
       })
+    }
+
+    api.users.find = async(userName) => {
+      try {
+        let data = await redis.hget(this.usersHash, userName)
+        let dataUser = JSON.parse(data);
+        delete dataUser.hashedPassword;
+        return dataUser;
+      } catch (error) {
+        throw new Error(`userName does not exists (${error})`)
+      }
     }
 
     api.users.authenticate = async(userName, password) => {
@@ -65,8 +89,9 @@ module.exports = class Users extends Initializer {
     api.users.comparePassword = async(hashedPassword, userPassword) => {
       return bcrypt.compare(userPassword, hashedPassword)
     }
-  }
 
+  }
+  
   //async start() {}
   //async stop() {}
 }

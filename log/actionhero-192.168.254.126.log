@@ -688,3 +688,578 @@
 {"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.833Z"}
 {"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.838Z"}
 {"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-10-30T20:01:12.840Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-10-31T17:10:03.102Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-10-31T17:10:03.103Z"}
+{"level":"notice","message":"pid: 73892","timestamp":"192.168.254.126 @ 2017-10-31T17:10:03.104Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-10-31T17:10:03.104Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-10-31T17:10:03.108Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-10-31T17:10:03.112Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-10-31T17:10:03.115Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.254.126 @ 2017-10-31T17:10:03.659Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-10-31T17:10:08.686Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-10-31T17:10:08.688Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-10-31T17:10:08.689Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-10-31T17:45:31.048Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-10-31T17:45:31.049Z"}
+{"level":"notice","message":"pid: 74502","timestamp":"192.168.254.126 @ 2017-10-31T17:45:31.050Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-10-31T17:45:31.050Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-10-31T17:45:31.052Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-10-31T17:45:31.057Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-10-31T17:45:31.059Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.254.126 @ 2017-10-31T17:45:31.579Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-10-31T17:47:20.861Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-10-31T17:47:20.863Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-10-31T17:47:20.863Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-10-31T18:32:22.751Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-10-31T18:32:22.752Z"}
+{"level":"notice","message":"pid: 75255","timestamp":"192.168.254.126 @ 2017-10-31T18:32:22.753Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-10-31T18:32:22.754Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-10-31T18:32:22.757Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-10-31T18:32:22.763Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-10-31T18:32:22.764Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.254.126 @ 2017-10-31T18:32:23.376Z"}
+{"to":"127.0.0.1","action":"authenticate","params":"{\"action\":\"authenticate\",\"apiVersion\":1}","duration":6,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T18:32:26.862Z"}
+{"level":"error","message":"[server: web] error processing form: SyntaxError: Unexpected number in JSON at position 1","timestamp":"192.168.254.126 @ 2017-10-31T18:32:51.964Z"}
+{"to":"127.0.0.1","action":"authenticate","params":"{\"action\":\"authenticate\",\"apiVersion\":1}","duration":0,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T18:32:51.965Z"}
+{"level":"error","message":"[server: web] error processing form: SyntaxError: Unexpected number in JSON at position 1","timestamp":"192.168.254.126 @ 2017-10-31T18:33:24.503Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"action\":\"userAdd\",\"apiVersion\":1}","duration":0,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T18:33:24.504Z"}
+{"level":"error","message":"[server: web] error processing form: SyntaxError: Unexpected number in JSON at position 1","timestamp":"192.168.254.126 @ 2017-10-31T18:33:39.763Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"action\":\"userAdd\",\"apiVersion\":1}","duration":0,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T18:33:39.764Z"}
+{"level":"error","message":"[server: web] error processing form: SyntaxError: Unexpected number in JSON at position 1","timestamp":"192.168.254.126 @ 2017-10-31T18:33:53.272Z"}
+{"to":"127.0.0.1","params":"{}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T18:33:53.273Z"}
+{"level":"error","message":"[server: web] error processing form: SyntaxError: Unexpected number in JSON at position 1","timestamp":"192.168.254.126 @ 2017-10-31T18:34:56.420Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"action\":\"userAdd\",\"apiVersion\":1}","duration":0,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T18:34:56.420Z"}
+{"level":"error","message":"[server: web] error processing form: SyntaxError: Unexpected number in JSON at position 1","timestamp":"192.168.254.126 @ 2017-10-31T18:35:05.466Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"action\":\"userAdd\",\"apiVersion\":1}","duration":0,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T18:35:05.468Z"}
+{"level":"error","message":"[server: web] error processing form: SyntaxError: Unexpected number in JSON at position 1","timestamp":"192.168.254.126 @ 2017-10-31T18:36:39.704Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"action\":\"userAdd\",\"apiVersion\":1}","duration":1,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T18:36:39.705Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"action\":\"userAdd\",\"apiVersion\":1}","duration":0,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T18:37:25.158Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"password\":\"root\",\"action\":\"userAdd\",\"apiVersion\":1}","duration":0,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T18:38:26.189Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"userName\":\"arthurcosta\",\"password\":\"root\",\"action\":\"userAdd\",\"apiVersion\":1}","duration":88,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T18:38:39.123Z"}
+{"level":"error","message":"[server: web] error processing form: SyntaxError: Unexpected number in JSON at position 1","timestamp":"192.168.254.126 @ 2017-10-31T18:39:26.133Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"action\":\"userAdd\",\"apiVersion\":1}","duration":0,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T18:39:26.133Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"userName\":\"sanchestiozao\",\"password\":\"tiozao\",\"action\":\"userAdd\",\"apiVersion\":1}","duration":88,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T18:40:14.430Z"}
+{"to":"127.0.0.1","params":"{\"userName\":\"sanchestiozao\",\"password\":\"tiozao\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T19:24:53.488Z"}
+{"to":"127.0.0.1","action":"usersList","params":"{\"action\":\"usersList\",\"apiVersion\":1}","duration":14,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T19:24:56.588Z"}
+{"to":"127.0.0.1","params":"{}","duration":1,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-10-31T19:44:21.882Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/users.js) ***","timestamp":"192.168.254.126 @ 2017-10-31T20:14:44.301Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-10-31T20:14:44.303Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-10-31T20:14:44.305Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-10-31T20:14:44.306Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-10-31T20:14:44.312Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-10-31T20:14:44.314Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-10-31T20:14:44.400Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-10-31T20:14:44.400Z"}
+{"level":"notice","message":"pid: 75255","timestamp":"192.168.254.126 @ 2017-10-31T20:14:44.401Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-10-31T20:14:44.401Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-10-31T20:14:44.403Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-10-31T20:14:44.405Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-10-31T20:14:44.406Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-10-31T20:14:44.806Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/users.js) ***","timestamp":"192.168.254.126 @ 2017-10-31T20:22:31.793Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-10-31T20:22:31.794Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-10-31T20:22:31.799Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-10-31T20:22:31.800Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-10-31T20:22:31.805Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-10-31T20:22:31.807Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-10-31T20:22:31.877Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-10-31T20:22:31.878Z"}
+{"level":"notice","message":"pid: 75255","timestamp":"192.168.254.126 @ 2017-10-31T20:22:31.878Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-10-31T20:22:31.878Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-10-31T20:22:31.879Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-10-31T20:22:31.881Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-10-31T20:22:31.881Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-10-31T20:22:32.499Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T13:09:00.058Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T13:09:00.065Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T13:09:00.066Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T13:09:00.088Z"}
+{"message":"Redis connection `client` error","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at Object._errnoException (util.js:1024:11)\n    at _exceptionWithHostPort (util.js:1046:20)\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1185:14)","code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":6379,"level":"error","timestamp":"192.168.254.126 @ 2017-11-01T13:13:35.420Z"}
+{"level":"error","message":"Unable to connect to Redis - please check your Redis config!","timestamp":"192.168.254.126 @ 2017-11-01T13:13:35.421Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T14:23:57.254Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T14:23:57.255Z"}
+{"level":"notice","message":"pid: 80846","timestamp":"192.168.254.126 @ 2017-11-01T14:23:57.256Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T14:23:57.256Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:23:57.258Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T14:23:57.265Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T14:23:57.268Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.254.126 @ 2017-11-01T14:23:57.847Z"}
+{"level":"info","message":"*** rebooting due to config change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/config/routes.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T14:25:03.491Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T14:25:03.492Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T14:25:03.493Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T14:25:03.494Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:25:03.498Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T14:25:03.500Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T14:25:03.581Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T14:25:03.582Z"}
+{"level":"notice","message":"pid: 80846","timestamp":"192.168.254.126 @ 2017-11-01T14:25:03.582Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T14:25:03.582Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:25:03.584Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T14:25:03.586Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T14:25:03.586Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T14:25:04.035Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"action\":\"userAdd\",\"apiVersion\":1}","duration":3,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:25:25.119Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"action\":\"userAdd\",\"apiVersion\":1}","duration":0,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:25:41.058Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"password\":\"root\",\"action\":\"userAdd\",\"apiVersion\":1}","duration":0,"error":"Error: userName is a required parameter for this action","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:26:11.031Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userrName\":\"apple\",\"action\":\"authentication\"}","duration":1,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:26:36.823Z"}
+{"to":"127.0.0.1","params":"{\"userName\":\"evan\",\"password\":\"password\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:27:30.002Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:28:04.541Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\"}","duration":1,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:29:24.405Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:31:27.686Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:32:13.835Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/users.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T14:48:44.362Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T14:48:44.364Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T14:48:44.366Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T14:48:44.367Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:48:44.371Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T14:48:44.373Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T14:48:44.446Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T14:48:44.447Z"}
+{"level":"notice","message":"pid: 80846","timestamp":"192.168.254.126 @ 2017-11-01T14:48:44.447Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T14:48:44.447Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:48:44.448Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T14:48:44.450Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T14:48:44.450Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T14:48:44.843Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/users.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T14:48:46.319Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T14:48:46.319Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T14:48:46.320Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T14:48:46.320Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:48:46.322Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T14:48:46.322Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T14:48:46.369Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T14:48:46.369Z"}
+{"level":"notice","message":"pid: 80846","timestamp":"192.168.254.126 @ 2017-11-01T14:48:46.370Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T14:48:46.370Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:48:46.371Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T14:48:46.372Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T14:48:46.372Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T14:48:46.727Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:48:54.822Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/users.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T14:49:16.111Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T14:49:16.111Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T14:49:16.113Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T14:49:16.113Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:49:16.116Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T14:49:16.117Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T14:49:16.208Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T14:49:16.208Z"}
+{"level":"notice","message":"pid: 80846","timestamp":"192.168.254.126 @ 2017-11-01T14:49:16.209Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T14:49:16.212Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:49:16.213Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T14:49:16.215Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T14:49:16.216Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T14:49:16.647Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\"}","duration":0,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:52:47.487Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T14:52:57.816Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T14:52:57.817Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T14:52:57.818Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T14:52:59.722Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T14:52:59.723Z"}
+{"level":"notice","message":"pid: 81221","timestamp":"192.168.254.126 @ 2017-11-01T14:52:59.724Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T14:52:59.725Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:52:59.726Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T14:52:59.731Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T14:52:59.733Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.254.126 @ 2017-11-01T14:53:00.279Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\"}","duration":1,"error":"Error: unknown action or invalid apiVersion","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:53:05.961Z"}
+{"level":"info","message":"*** rebooting due to config change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/config/routes.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T14:53:34.694Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T14:53:34.694Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T14:53:34.696Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T14:53:34.696Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:53:34.699Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T14:53:34.701Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T14:53:34.781Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T14:53:34.781Z"}
+{"level":"notice","message":"pid: 81221","timestamp":"192.168.254.126 @ 2017-11-01T14:53:34.782Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T14:53:34.782Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:53:34.784Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T14:53:34.787Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T14:53:34.787Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T14:53:35.210Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/users.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T14:53:46.166Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T14:53:46.166Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T14:53:46.167Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T14:53:46.168Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:53:46.170Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T14:53:46.171Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T14:53:46.225Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T14:53:46.225Z"}
+{"level":"notice","message":"pid: 81221","timestamp":"192.168.254.126 @ 2017-11-01T14:53:46.225Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T14:53:46.226Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:53:46.226Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T14:53:46.227Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T14:53:46.228Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T14:53:46.659Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/users.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T14:53:48.630Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T14:53:48.631Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T14:53:48.631Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T14:53:48.631Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:53:48.633Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T14:53:48.634Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T14:53:48.703Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T14:53:48.704Z"}
+{"level":"notice","message":"pid: 81221","timestamp":"192.168.254.126 @ 2017-11-01T14:53:48.704Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T14:53:48.705Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:53:48.705Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T14:53:48.708Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T14:53:48.708Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T14:53:49.151Z"}
+{"level":"info","message":"*** rebooting due to config change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/config/routes.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T14:54:34.552Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T14:54:34.552Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T14:54:34.553Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T14:54:34.553Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:54:34.555Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T14:54:34.555Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T14:54:34.596Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T14:54:34.597Z"}
+{"level":"notice","message":"pid: 81221","timestamp":"192.168.254.126 @ 2017-11-01T14:54:34.597Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T14:54:34.597Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:54:34.598Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T14:54:34.599Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T14:54:34.599Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T14:54:34.948Z"}
+{"level":"info","message":"*** rebooting due to config change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/config/routes.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T14:54:51.730Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T14:54:51.730Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T14:54:51.730Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T14:54:51.731Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:54:51.732Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T14:54:51.733Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T14:54:51.814Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T14:54:51.814Z"}
+{"level":"notice","message":"pid: 81221","timestamp":"192.168.254.126 @ 2017-11-01T14:54:51.815Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T14:54:51.815Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T14:54:51.816Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T14:54:51.817Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T14:54:51.818Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T14:54:52.298Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":1,"error":"Error: userName does not exists (TypeError: Cannot read property 'hashedPassword' of null)","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:54:54.152Z"}
+{"to":"127.0.0.1","action":"usersList","params":"{\"action\":\"usersList\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:55:14.905Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":3,"error":"Error: userName does not exists (TypeError: Cannot read property 'hashedPassword' of null)","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:55:32.089Z"}
+{"to":"127.0.0.1","action":"userAdd","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"userAdd\",\"apiVersion\":1}","duration":82,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:56:00.595Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":96,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T14:56:36.286Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/middleware.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T17:01:51.145Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T17:01:51.146Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T17:01:51.148Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T17:01:51.148Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T17:01:51.153Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T17:01:51.155Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T17:01:51.229Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T17:01:51.230Z"}
+{"level":"notice","message":"pid: 81221","timestamp":"192.168.254.126 @ 2017-11-01T17:01:51.230Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T17:01:51.230Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T17:01:51.232Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T17:01:51.234Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T17:01:51.235Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T17:01:51.681Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/middleware.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T17:07:50.730Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T17:07:50.732Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T17:07:50.736Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T17:07:50.737Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T17:07:50.742Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T17:07:50.745Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T17:29:59.349Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T17:29:59.350Z"}
+{"level":"notice","message":"pid: 82217","timestamp":"192.168.254.126 @ 2017-11-01T17:29:59.351Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T17:29:59.351Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T17:29:59.353Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T17:29:59.358Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T17:29:59.360Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.254.126 @ 2017-11-01T17:29:59.903Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":2,"error":"ReferenceError: req is not defined","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T17:30:05.768Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/middleware.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T17:31:01.932Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T17:31:01.933Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T17:31:01.934Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T17:31:01.935Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T17:31:01.938Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T17:31:01.940Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T17:36:35.097Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T17:36:35.098Z"}
+{"level":"notice","message":"pid: 82347","timestamp":"192.168.254.126 @ 2017-11-01T17:36:35.099Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T17:36:35.099Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T17:36:35.101Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T17:36:35.106Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T17:36:35.108Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.254.126 @ 2017-11-01T17:36:35.725Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":107,"error":"Error: secretOrPrivateKey must have a value","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T17:36:40.232Z"}
+{"level":"alert","message":"! Failed to load /Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/actions/authentication.js","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.044Z"}
+{"level":"alert","message":"! /Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/actions/authentication.js:42","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.044Z"}
+{"level":"alert","message":"! });","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.045Z"}
+{"level":"alert","message":"!  ^","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.045Z"}
+{"level":"alert","message":"! ","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.045Z"}
+{"level":"alert","message":"! SyntaxError: Unexpected token )","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.045Z"}
+{"level":"alert","message":"!     at createScript (vm.js:80:10)","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.045Z"}
+{"level":"alert","message":"!     at Object.runInThisContext (vm.js:139:10)","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.045Z"}
+{"level":"alert","message":"!     at Module._compile (module.js:576:28)","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.046Z"}
+{"level":"alert","message":"!     at Object.Module._extensions..js (module.js:623:10)","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.046Z"}
+{"level":"alert","message":"!     at Module.load (module.js:531:32)","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.046Z"}
+{"level":"alert","message":"!     at tryModuleLoad (module.js:494:12)","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.046Z"}
+{"level":"alert","message":"!     at Function.Module._load (module.js:486:3)","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.046Z"}
+{"level":"alert","message":"!     at Module.require (module.js:556:17)","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.046Z"}
+{"level":"alert","message":"!     at require (internal/module.js:11:18)","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.047Z"}
+{"level":"alert","message":"!     at Object.api.actions.loadFile (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/actions.js:108:26)","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.047Z"}
+{"level":"alert","message":"!     at api.watchFileAndAct (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/actions.js:100:21)","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.047Z"}
+{"level":"alert","message":"!     at FSWatcher.fs.watch (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/config.js:64:13)","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.047Z"}
+{"level":"alert","message":"!     at emitTwo (events.js:125:13)","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.047Z"}
+{"level":"alert","message":"!     at FSWatcher.emit (events.js:213:7)","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.047Z"}
+{"level":"alert","message":"!     at FSEvent.FSWatcher._handle.onchange (fs.js:1358:12)","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.047Z"}
+{"level":"alert","message":"*","timestamp":"192.168.254.126 @ 2017-11-01T17:44:03.047Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":79,"error":"Error: secretOrPrivateKey must have a value","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T17:44:08.346Z"}
+{"level":"alert","message":"! Failed to load /Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/actions/authentication.js","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.859Z"}
+{"level":"alert","message":"! /Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/actions/authentication.js:42","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.859Z"}
+{"level":"alert","message":"! });","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.859Z"}
+{"level":"alert","message":"!  ^","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.859Z"}
+{"level":"alert","message":"! ","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.860Z"}
+{"level":"alert","message":"! SyntaxError: Unexpected token )","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.860Z"}
+{"level":"alert","message":"!     at createScript (vm.js:80:10)","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.860Z"}
+{"level":"alert","message":"!     at Object.runInThisContext (vm.js:139:10)","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.860Z"}
+{"level":"alert","message":"!     at Module._compile (module.js:576:28)","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.860Z"}
+{"level":"alert","message":"!     at Object.Module._extensions..js (module.js:623:10)","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.860Z"}
+{"level":"alert","message":"!     at Module.load (module.js:531:32)","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.860Z"}
+{"level":"alert","message":"!     at tryModuleLoad (module.js:494:12)","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.860Z"}
+{"level":"alert","message":"!     at Function.Module._load (module.js:486:3)","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.860Z"}
+{"level":"alert","message":"!     at Module.require (module.js:556:17)","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.861Z"}
+{"level":"alert","message":"!     at require (internal/module.js:11:18)","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.861Z"}
+{"level":"alert","message":"!     at Object.api.actions.loadFile (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/actions.js:108:26)","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.861Z"}
+{"level":"alert","message":"!     at api.watchFileAndAct (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/actions.js:100:21)","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.861Z"}
+{"level":"alert","message":"!     at FSWatcher.fs.watch (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/config.js:64:13)","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.861Z"}
+{"level":"alert","message":"!     at emitTwo (events.js:125:13)","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.861Z"}
+{"level":"alert","message":"!     at FSWatcher.emit (events.js:213:7)","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.861Z"}
+{"level":"alert","message":"!     at FSEvent.FSWatcher._handle.onchange (fs.js:1358:12)","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.861Z"}
+{"level":"alert","message":"*","timestamp":"192.168.254.126 @ 2017-11-01T17:50:55.862Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":86,"error":"Error: secretOrPrivateKey must have a value","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T17:51:28.634Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":80,"error":"Error: secretOrPrivateKey must have a value","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T17:51:30.812Z"}
+{"level":"alert","message":"! Failed to load /Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/actions/authentication.js","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.151Z"}
+{"level":"alert","message":"! /Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/actions/authentication.js:42","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.152Z"}
+{"level":"alert","message":"! });","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.152Z"}
+{"level":"alert","message":"!  ^","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.152Z"}
+{"level":"alert","message":"! ","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.152Z"}
+{"level":"alert","message":"! SyntaxError: Unexpected token )","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.152Z"}
+{"level":"alert","message":"!     at createScript (vm.js:80:10)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.152Z"}
+{"level":"alert","message":"!     at Object.runInThisContext (vm.js:139:10)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.153Z"}
+{"level":"alert","message":"!     at Module._compile (module.js:576:28)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.153Z"}
+{"level":"alert","message":"!     at Object.Module._extensions..js (module.js:623:10)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.153Z"}
+{"level":"alert","message":"!     at Module.load (module.js:531:32)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.153Z"}
+{"level":"alert","message":"!     at tryModuleLoad (module.js:494:12)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.153Z"}
+{"level":"alert","message":"!     at Function.Module._load (module.js:486:3)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.153Z"}
+{"level":"alert","message":"!     at Module.require (module.js:556:17)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.154Z"}
+{"level":"alert","message":"!     at require (internal/module.js:11:18)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.154Z"}
+{"level":"alert","message":"!     at Object.api.actions.loadFile (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/actions.js:108:26)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.154Z"}
+{"level":"alert","message":"!     at api.watchFileAndAct (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/actions.js:100:21)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.154Z"}
+{"level":"alert","message":"!     at FSWatcher.fs.watch (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/config.js:64:13)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.154Z"}
+{"level":"alert","message":"!     at emitTwo (events.js:125:13)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.154Z"}
+{"level":"alert","message":"!     at FSWatcher.emit (events.js:213:7)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.154Z"}
+{"level":"alert","message":"!     at FSEvent.FSWatcher._handle.onchange (fs.js:1358:12)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.154Z"}
+{"level":"alert","message":"*","timestamp":"192.168.254.126 @ 2017-11-01T17:59:02.155Z"}
+{"level":"alert","message":"! Failed to load /Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/actions/authentication.js","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.655Z"}
+{"level":"alert","message":"! /Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/actions/authentication.js:42","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.655Z"}
+{"level":"alert","message":"! });","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.655Z"}
+{"level":"alert","message":"!  ^","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.655Z"}
+{"level":"alert","message":"! ","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.655Z"}
+{"level":"alert","message":"! SyntaxError: Unexpected token )","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.655Z"}
+{"level":"alert","message":"!     at createScript (vm.js:80:10)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.655Z"}
+{"level":"alert","message":"!     at Object.runInThisContext (vm.js:139:10)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.656Z"}
+{"level":"alert","message":"!     at Module._compile (module.js:576:28)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.656Z"}
+{"level":"alert","message":"!     at Object.Module._extensions..js (module.js:623:10)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.656Z"}
+{"level":"alert","message":"!     at Module.load (module.js:531:32)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.656Z"}
+{"level":"alert","message":"!     at tryModuleLoad (module.js:494:12)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.656Z"}
+{"level":"alert","message":"!     at Function.Module._load (module.js:486:3)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.656Z"}
+{"level":"alert","message":"!     at Module.require (module.js:556:17)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.656Z"}
+{"level":"alert","message":"!     at require (internal/module.js:11:18)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.656Z"}
+{"level":"alert","message":"!     at Object.api.actions.loadFile (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/actions.js:108:26)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.656Z"}
+{"level":"alert","message":"!     at api.watchFileAndAct (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/actions.js:100:21)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.657Z"}
+{"level":"alert","message":"!     at FSWatcher.fs.watch (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/config.js:64:13)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.657Z"}
+{"level":"alert","message":"!     at emitTwo (events.js:125:13)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.657Z"}
+{"level":"alert","message":"!     at FSWatcher.emit (events.js:213:7)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.657Z"}
+{"level":"alert","message":"!     at FSEvent.FSWatcher._handle.onchange (fs.js:1358:12)","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.657Z"}
+{"level":"alert","message":"*","timestamp":"192.168.254.126 @ 2017-11-01T17:59:09.657Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":78,"error":"Error: secretOrPrivateKey must have a value","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T17:59:12.924Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":78,"error":"Error: secretOrPrivateKey must have a value","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T17:59:15.385Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":77,"error":"Error: secretOrPrivateKey must have a value","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T17:59:16.168Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":77,"error":"Error: secretOrPrivateKey must have a value","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T17:59:16.825Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":79,"error":"Error: secretOrPrivateKey must have a value","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T17:59:17.560Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":76,"error":"Error: secretOrPrivateKey must have a value","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T17:59:18.155Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":79,"error":"Error: secretOrPrivateKey must have a value","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T17:59:18.826Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":77,"error":"Error: secretOrPrivateKey must have a value","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T17:59:19.432Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/users.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T18:16:23.075Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T18:16:23.077Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T18:16:23.081Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T18:16:23.083Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T18:16:23.089Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T18:16:23.091Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T18:28:52.817Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T18:28:52.818Z"}
+{"level":"notice","message":"pid: 82899","timestamp":"192.168.254.126 @ 2017-11-01T18:28:52.819Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T18:28:52.819Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T18:28:52.821Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T18:28:52.829Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T18:28:52.831Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.254.126 @ 2017-11-01T18:28:53.387Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":85,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T18:29:00.870Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":77,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T18:29:05.052Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":84,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T18:30:07.432Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":78,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T18:32:31.093Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":85,"error":"ReferenceError: userName is not defined","level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T18:34:15.580Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":92,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T18:34:42.020Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/users.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T18:35:28.185Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T18:35:28.186Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T18:35:28.188Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T18:35:28.188Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T18:35:28.192Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T18:35:28.193Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T18:35:28.279Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T18:35:28.280Z"}
+{"level":"notice","message":"pid: 82899","timestamp":"192.168.254.126 @ 2017-11-01T18:35:28.280Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T18:35:28.281Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T18:35:28.282Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T18:35:28.285Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T18:35:28.285Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T18:35:28.692Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/users.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T18:35:38.552Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T18:35:38.552Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T18:35:38.553Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T18:35:38.554Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T18:35:38.556Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T18:35:38.557Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T18:35:38.599Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T18:35:38.599Z"}
+{"level":"notice","message":"pid: 82899","timestamp":"192.168.254.126 @ 2017-11-01T18:35:38.600Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T18:35:38.600Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T18:35:38.600Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T18:35:38.602Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T18:35:38.602Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T18:35:39.027Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T18:47:40.220Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T18:47:40.222Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T18:47:40.223Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T20:26:19.871Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T20:26:19.872Z"}
+{"level":"notice","message":"pid: 83865","timestamp":"192.168.254.126 @ 2017-11-01T20:26:19.872Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T20:26:19.873Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T20:26:19.874Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T20:26:19.879Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T20:26:19.881Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.254.126 @ 2017-11-01T20:26:20.396Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":82,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T20:26:24.118Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/users.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T20:53:41.458Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T20:53:41.460Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T20:53:41.464Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T20:53:41.465Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T20:53:41.475Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T20:53:41.477Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T20:53:41.561Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T20:53:41.562Z"}
+{"level":"notice","message":"pid: 83865","timestamp":"192.168.254.126 @ 2017-11-01T20:53:41.563Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T20:53:41.563Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T20:53:41.564Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T20:53:41.567Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T20:53:41.567Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T20:53:41.978Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":78,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T20:53:47.175Z"}
+{"level":"alert","message":"! Failed to load /Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/actions/authentication.js","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.592Z"}
+{"level":"alert","message":"! /Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/actions/authentication.js:36","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.592Z"}
+{"level":"alert","message":"!             response.user = await api.users.find(params.userName);","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.592Z"}
+{"level":"alert","message":"!                     ^","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.592Z"}
+{"level":"alert","message":"! ","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.592Z"}
+{"level":"alert","message":"! SyntaxError: Unexpected token .","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.593Z"}
+{"level":"alert","message":"!     at createScript (vm.js:80:10)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.593Z"}
+{"level":"alert","message":"!     at Object.runInThisContext (vm.js:139:10)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.593Z"}
+{"level":"alert","message":"!     at Module._compile (module.js:576:28)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.593Z"}
+{"level":"alert","message":"!     at Object.Module._extensions..js (module.js:623:10)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.593Z"}
+{"level":"alert","message":"!     at Module.load (module.js:531:32)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.593Z"}
+{"level":"alert","message":"!     at tryModuleLoad (module.js:494:12)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.593Z"}
+{"level":"alert","message":"!     at Function.Module._load (module.js:486:3)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.593Z"}
+{"level":"alert","message":"!     at Module.require (module.js:556:17)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.594Z"}
+{"level":"alert","message":"!     at require (internal/module.js:11:18)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.594Z"}
+{"level":"alert","message":"!     at Object.api.actions.loadFile (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/actions.js:108:26)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.594Z"}
+{"level":"alert","message":"!     at api.watchFileAndAct (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/actions.js:100:21)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.594Z"}
+{"level":"alert","message":"!     at FSWatcher.fs.watch (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/config.js:64:13)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.594Z"}
+{"level":"alert","message":"!     at emitTwo (events.js:125:13)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.594Z"}
+{"level":"alert","message":"!     at FSWatcher.emit (events.js:213:7)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.594Z"}
+{"level":"alert","message":"!     at FSEvent.FSWatcher._handle.onchange (fs.js:1358:12)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.594Z"}
+{"level":"alert","message":"*","timestamp":"192.168.254.126 @ 2017-11-01T20:55:04.594Z"}
+{"level":"alert","message":"! Failed to load /Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/actions/authentication.js","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.594Z"}
+{"level":"alert","message":"! /Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/actions/authentication.js:36","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.594Z"}
+{"level":"alert","message":"!             response.user = await api.users.find(params.userName);","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.594Z"}
+{"level":"alert","message":"!                     ^","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.594Z"}
+{"level":"alert","message":"! ","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.595Z"}
+{"level":"alert","message":"! SyntaxError: Unexpected token .","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.595Z"}
+{"level":"alert","message":"!     at createScript (vm.js:80:10)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.595Z"}
+{"level":"alert","message":"!     at Object.runInThisContext (vm.js:139:10)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.595Z"}
+{"level":"alert","message":"!     at Module._compile (module.js:576:28)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.595Z"}
+{"level":"alert","message":"!     at Object.Module._extensions..js (module.js:623:10)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.595Z"}
+{"level":"alert","message":"!     at Module.load (module.js:531:32)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.595Z"}
+{"level":"alert","message":"!     at tryModuleLoad (module.js:494:12)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.595Z"}
+{"level":"alert","message":"!     at Function.Module._load (module.js:486:3)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.596Z"}
+{"level":"alert","message":"!     at Module.require (module.js:556:17)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.596Z"}
+{"level":"alert","message":"!     at require (internal/module.js:11:18)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.596Z"}
+{"level":"alert","message":"!     at Object.api.actions.loadFile (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/actions.js:108:26)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.596Z"}
+{"level":"alert","message":"!     at api.watchFileAndAct (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/actions.js:100:21)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.596Z"}
+{"level":"alert","message":"!     at FSWatcher.fs.watch (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/config.js:64:13)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.596Z"}
+{"level":"alert","message":"!     at emitTwo (events.js:125:13)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.596Z"}
+{"level":"alert","message":"!     at FSWatcher.emit (events.js:213:7)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.596Z"}
+{"level":"alert","message":"!     at FSEvent.FSWatcher._handle.onchange (fs.js:1358:12)","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.596Z"}
+{"level":"alert","message":"*","timestamp":"192.168.254.126 @ 2017-11-01T20:55:31.597Z"}
+{"to":"127.0.0.1","action":"authentication","params":"{\"userName\":\"apple\",\"password\":\"root\",\"action\":\"authentication\",\"apiVersion\":1}","duration":109,"level":"info","message":"[ action @ web ]","timestamp":"192.168.254.126 @ 2017-11-01T20:56:39.592Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/middleware.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T21:04:31.639Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T21:04:31.640Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T21:04:31.642Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T21:04:31.643Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T21:04:31.648Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T21:04:31.651Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T21:04:31.721Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T21:04:31.721Z"}
+{"level":"notice","message":"pid: 83865","timestamp":"192.168.254.126 @ 2017-11-01T21:04:31.722Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T21:04:31.722Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T21:04:31.723Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T21:04:31.724Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T21:04:31.725Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T21:04:32.116Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/users.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T21:10:40.079Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T21:10:40.079Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T21:10:40.081Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T21:10:40.081Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T21:10:40.084Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T21:10:40.086Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T21:10:40.155Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T21:10:40.155Z"}
+{"level":"notice","message":"pid: 83865","timestamp":"192.168.254.126 @ 2017-11-01T21:10:40.155Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T21:10:40.155Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T21:10:40.156Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T21:10:40.158Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T21:10:40.158Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T21:10:40.531Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/middleware.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T21:10:48.945Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T21:10:48.945Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T21:10:48.946Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T21:10:48.946Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T21:10:48.948Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T21:10:48.949Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T21:10:48.999Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T21:10:48.999Z"}
+{"level":"notice","message":"pid: 83865","timestamp":"192.168.254.126 @ 2017-11-01T21:10:48.999Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T21:10:49.000Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T21:10:49.000Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T21:10:49.002Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T21:10:49.002Z"}
+{"level":"alert","message":"*** ActionHero Restarted ***","timestamp":"192.168.254.126 @ 2017-11-01T21:10:49.373Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/middleware.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T21:12:15.608Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T21:12:15.609Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T21:12:15.609Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T21:12:15.610Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T21:12:15.611Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T21:12:15.613Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.126 @ 2017-11-01T21:27:43.964Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.126 @ 2017-11-01T21:27:43.964Z"}
+{"level":"notice","message":"pid: 84605","timestamp":"192.168.254.126 @ 2017-11-01T21:27:43.965Z"}
+{"level":"notice","message":"server ID: 192.168.254.126","timestamp":"192.168.254.126 @ 2017-11-01T21:27:43.965Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has joined the cluster","timestamp":"192.168.254.126 @ 2017-11-01T21:27:43.967Z"}
+{"level":"notice","message":"Starting server: `web` @ 0.0.0.0:8080","timestamp":"192.168.254.126 @ 2017-11-01T21:27:43.972Z"}
+{"level":"notice","message":"Starting server: `websocket`","timestamp":"192.168.254.126 @ 2017-11-01T21:27:43.974Z"}
+{"level":"alert","message":"*** ActionHero Started ***","timestamp":"192.168.254.126 @ 2017-11-01T21:27:44.486Z"}
+{"level":"info","message":"*** Rebooting due to initializer change (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/users.js) ***","timestamp":"192.168.254.126 @ 2017-11-01T21:28:15.414Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.126 @ 2017-11-01T21:28:15.414Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.126 @ 2017-11-01T21:28:15.415Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.126 @ 2017-11-01T21:28:15.416Z"}
+{"level":"info","message":"actionhero member 192.168.254.126 has left the cluster","timestamp":"192.168.254.126 @ 2017-11-01T21:28:15.419Z"}
+{"level":"alert","message":"*** ActionHero Stopped ***","timestamp":"192.168.254.126 @ 2017-11-01T21:28:15.421Z"}

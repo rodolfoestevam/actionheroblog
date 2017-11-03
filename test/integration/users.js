@@ -63,8 +63,20 @@ describe('integration', () => {
             expect(body.authenticated).to.equal(false)
             expect(body.error).to.equal('unable to log in')
         })
+        it('returns a list of users', async() => {
+            const body = await r2.post(`${url}/user`, {
+                json: {
+                    userName: 'someoneElse',
+                    password: 'password'
+                }
+            }).json
+            expect(body.error).to.not.exist()
 
-        it('returns')
-
+            const usersBody = await r2.get(`${url}/usersList`).json
+            expect(usersBody.users.length).to.be.above(1)
+            expect(usersBody.users).to.include('evan')
+            expect(usersBody.users).to.include('someoneElse')
+            expect(usersBody.error).to.not.exist()
+        })
     })
 })

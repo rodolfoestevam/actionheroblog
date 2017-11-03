@@ -53,21 +53,21 @@ exports.usersList = class UsersList extends Action {
   }
 }
 
-exports.authenticate = class Authenticate extends Action {
-  constructor() {
-    super()
-    this.name = 'authenticate'
-    this.description = 'I authenticate a user'
-    this.outputExample = {}
-    this.authenticate = false
-    this.inputs = {
-      userName: {required: true},
-      password: {required: true}
-    }
-  }
+// exports.authenticate = class Authenticate extends Action {
+//   constructor() {
+//     super()
+//     this.name = 'authenticate'
+//     this.description = 'I authenticate a user'
+//     this.outputExample = {}
+//     this.authenticate = false
+//     this.inputs = {
+//       userName: {required: true},
+//       password: {required: true}
+//     }
+//   }
 
-  async run ({response, params}) {
-    response.authenticated = await api.users.authenticate(params.userName, params.password)
-    if (!response.authenticated) { throw new Error ('Unable to log in')}
-  }
-}
+//   async run ({response, params}) {
+//     response.authenticated = await api.users.authenticate(params.userName, params.password)
+//     if (!response.authenticated) { throw new Error ('Unable to log in')}
+//   }
+

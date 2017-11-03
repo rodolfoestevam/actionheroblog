@@ -3,7 +3,6 @@ exports.default = {
     return {
 
       get: [
-        { path : '/teste', action: 'jefferson' },
         { path : '/users', action: 'usersList' },
         { path : '/comments/:userName/:title', action: 'commentsView' },
         { path : '/post/:userName/:title', action: 'postView' },
@@ -11,7 +10,7 @@ exports.default = {
       ],
 
       post: [
-        { path : '/authenticate', action: 'authenticate' },
+        { path : '/authentication', action: 'authentication' },
         { path : '/user', action: 'userAdd' },
         { path : '/comment/:userName/:title', action: 'commentAdd' },
         { path : '/post/:userName', action: 'postAdd' },
