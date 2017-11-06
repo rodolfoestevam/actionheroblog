@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "R2": "^1.4.3",
+    "ah-sequelize-plugin": "^1.0.2",
     "bcrypt": "^1.0.3",
     "body-parser": "^1.18.2",
     "chai": "latest",
@@ -23,6 +24,7 @@
     "install": "^0.10.1",
     "jsonwebtoken": "^8.1.0",
     "mocha": "^4.0.1",
+    "mysql2": "^1.4.2",
     "npm": "^5.5.1",
     "request": "^2.83.0",
     "sequelize": "^4.20.1",

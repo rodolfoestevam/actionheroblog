@@ -1,5 +1,11 @@
 exports['default'] = {
   plugins: (api) => {
+
+    return {
+      'ah-sequelize-plugin': {
+        path: __dirname + '/../node_modules/ah-sequelize-plugin'
+      }
+    }
     /*
     If you want to use plugins in your application, include them here:
 
@@ -21,7 +27,5 @@ exports['default'] = {
       }
     }
     */
-
-    return {}
   }
 }

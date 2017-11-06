@@ -1,0 +1,27 @@
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T12:49:49.546Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T14:14:28.185Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T14:26:43.718Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T14:41:47.431Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T16:19:42.627Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T16:23:42.954Z"}
+{"level":"notice","message":"environment: development","timestamp":"192.168.254.94 @ 2017-11-06T16:23:42.955Z"}
+{"level":"notice","message":"pid: 38440","timestamp":"192.168.254.94 @ 2017-11-06T16:23:42.956Z"}
+{"level":"notice","message":"server ID: 192.168.254.94","timestamp":"192.168.254.94 @ 2017-11-06T16:23:42.957Z"}
+{"level":"warning","message":"Exception occured in initializer: sequelize during start TypeError: defineCall is not a function","timestamp":"192.168.254.94 @ 2017-11-06T16:23:42.966Z"}
+{"level":"emerg","message":"Error with initializer step: start","timestamp":"192.168.254.94 @ 2017-11-06T16:23:42.967Z"}
+{"level":"emerg","message":"TypeError: defineCall is not a function\n    at Sequelize.import (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/sequelize/lib/sequelize.js:392:32)\n    at fs.readdirSync.forEach (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/sequelize.js:34:60)\n    at Array.forEach (<anonymous>)\n    at Object.connect (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/sequelize.js:31:29)\n    at SequelizeInitializer.start (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/initializers/sequelize.js:47:25)\n    at Utils.startFunction (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/classes/process.js:155:31)\n    at Object.api.utils.asyncWaterfall (/Users/Rodolfo/dev-projects/back-end-projects/heroblogpost/node_modules/actionhero/initializers/utils.js:77:31)\n    at <anonymous>","timestamp":"192.168.254.94 @ 2017-11-06T16:23:42.968Z"}
+{"level":"notice","message":"stopping process...","timestamp":"192.168.254.94 @ 2017-11-06T16:23:42.968Z"}
+{"level":"notice","message":"Stopping server: web","timestamp":"192.168.254.94 @ 2017-11-06T16:23:42.969Z"}
+{"level":"notice","message":"Stopping server: websocket","timestamp":"192.168.254.94 @ 2017-11-06T16:23:42.969Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T16:36:45.127Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T16:37:09.515Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T16:45:11.638Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T16:45:26.361Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T16:46:06.014Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T16:46:18.212Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T16:47:05.087Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T16:55:49.916Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T16:57:04.249Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T16:57:27.660Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T16:58:24.306Z"}
+{"level":"notice","message":"*** Starting ActionHero ***","timestamp":"192.168.254.94 @ 2017-11-06T16:58:27.181Z"}

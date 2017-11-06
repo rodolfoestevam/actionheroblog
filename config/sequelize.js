@@ -1,7 +1,7 @@
 exports.default = {
   sequelize: function (api) {
     return {
-      'autoMigrate': false,
+      'autoMigrate': true,
       'loadFixtures': false,
       'dialect': 'mysql',
       'port': parseInt(process.env.MYSQL_PORT),
@@ -29,3 +29,4 @@ exports.test = {
     }
   }
 }
+exports.development = exports.default.sequelize();
