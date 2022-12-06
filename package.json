@@ -17,7 +17,7 @@
     "R2": "^1.4.3",
     "ah-sequelize-plugin": "^1.0.2",
     "bcrypt": "^1.0.3",
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.20.1",
     "chai": "latest",
     "cross-env": "latest",
     "dirty-chai": "latest",
