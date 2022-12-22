@@ -22,7 +22,7 @@
     "cross-env": "latest",
     "dirty-chai": "latest",
     "install": "^0.10.1",
-    "jsonwebtoken": "^8.1.0",
+    "jsonwebtoken": "^9.0.0",
     "mocha": "^4.0.1",
     "mysql2": "^1.4.2",
     "npm": "^5.5.1",
